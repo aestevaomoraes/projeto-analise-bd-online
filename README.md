@@ -1,45 +1,77 @@
 [![Back to Portfolio](https://img.shields.io/badge/←_Back_to_Portfolio-0A66C2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aestevaomoraes)
 
+# 📊 Telecom Operations Analytics (AI + Automation)
 
-# Projeto de Análise de Bases de Dados Online
+## 🎯 Business Problem
 
-Bem-vindo ao projeto de análise da base operacional corporativa. Este projeto foi estruturado seguindo as melhores práticas de Data Science, focado em agilidade para extração de relatórios automatizados de SLA e Tempos.
+In telecom operations, generating daily reports for SLA monitoring and operational performance is often manual, time-consuming, and inconsistent.
 
-## 📁 Estrutura de Pastas
+This project was developed to solve this problem by:
 
-* **data/raw/**: Pasta para os arquivos brutos. Coloque o seu `bd_Online.csv` mais recente aqui.
-* **reports/**: Pasta onde os relatórios gerados em Markdown serão salvos.
-* **src/data/**: Contém o script Python para geração do relatório diário automatizado.
-* **notebooks/**: Para futuras explorações de dados no Jupyter.
+👉 Automating operational analysis using Python  
+👉 Leveraging AI (Prompt Engineering) to structure insights  
+👉 Reducing manual workload in reporting processes  
 
-## 🚀 Como Executar o Relatório Diário
+---
 
-Seu principal fluxo de trabalho diário será:
-1. Extrair a base mais recente (`bd_Online.csv`).
-2. Substituir o arquivo existente na pasta `data/raw/bd_Online.csv`.
-3. Executar o script `generate_report.py`.
+## 🤖 Solution Overview
 
-### Passo a Passo no Terminal/CMD:
+This project combines:
 
-Abra o terminal nesta pasta e instale as dependências (somente na primeira vez):
-```bash
-pip install -r requirements.txt
-```
+- 📊 Data processing (Python & Pandas)  
+- 🤖 AI-driven insights (Prompt Engineering - Antigravity)  
+- ⚙️ Automation of daily reporting workflows  
 
-Para rodar a automação diária, execute:
+👉 Result: a fully automated pipeline for generating business-ready reports.
+
+---
+
+## 📦 Dataset
+
+Operational dataset containing:
+
+- Service requests  
+- SLA deadlines  
+- Resolution times  
+- Operational backlog  
+
+---
+
+## 🧠 Approach
+
+The workflow follows a modern data + AI approach:
+
+🔹 Data ingestion and cleaning  
+🔹 KPI calculation (SLA, backlog, resolution time)  
+🔹 AI-assisted interpretation (prompt engineering)  
+🔹 Automated report generation (Markdown output)  
+
+---
+
+## 🧹 Data Processing
+
+- Cleaning and structuring operational data  
+- Standardizing time-based metrics  
+- Preparing data for automated reporting  
+
+---
+
+## 📊 Key Metrics
+
+- ⏱️ SLA compliance  
+- 📉 Backlog volume  
+- 📈 Average resolution time  
+- 🚨 Delayed requests  
+
+---
+
+## ⚙️ Automation Workflow
+
+Daily process:
+
+1. Extract latest dataset (`bd_Online.csv`)  
+2. Replace file in `data/raw/`  
+3. Run automated script  
+
 ```bash
 python src/data/generate_report.py
-```
-
-O script lerá a base atualizada, fará todos os cálculos e salvará um novo arquivo de relatório na pasta `reports/` com a data do dia. Você pode simplesmente abrir este arquivo, copiar o conteúdo e colar no corpo do e-mail para a sua gerência!
-
-## 📦 Envio para o GitHub (Portfólio)
-Este projeto já possui o Git inicializado. Para enviar para o GitHub:
-1. Crie um repositório vazio no seu GitHub.
-2. Rode os comandos:
-```bash
-git add .
-git commit -m "Initial commit - Estrutura do projeto e script de relatório diário"
-git remote add origin SUA_URL_DO_GITHUB_AQUI
-git push -u origin main
-```
