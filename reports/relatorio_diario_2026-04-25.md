@@ -1,6 +1,6 @@
-# Relatório Diário de Casos e SLA - 25/04/2026
+# Relatório de Casos e SLA Fonte BA Online - 25/04/2026
 
-Este relatório apresenta um resumo estatístico das atividades e vencimentos de SLA da base operacional.
+Este relatório apresenta um resumo estatístico das atividades e vencimentos de SLA da base operacional de BA's Online.
 
 ## 1. Status de Vencimento de SLA Geral
 | Status de SLA   |   Quantidade |
@@ -28,6 +28,7 @@ Este relatório apresenta um resumo estatístico das atividades e vencimentos de
 
 ## 3. Estados com Mais Casos Fora do Prazo (Top 10)
 *(N = Fora do Prazo / S = No Prazo)*
+
 | Estado   |   N |   S |
 |:---------|----:|----:|
 | BA       | 237 |  70 |
@@ -69,5 +70,19 @@ Este relatório apresenta um resumo estatístico das atividades e vencimentos de
 | BRTLINK       |                    26 |
 | ME            |                    20 |
 
+## 6. Postos com Mais Casos Vencidos (Top 10)
+| POSTO   |   Quantidade Vencidos |
+|:--------|----------------------:|
+| EIAD    |                   312 |
+| OEMP    |                   261 |
+| TRIAV   |                   163 |
+| CDE     |                   161 |
+| NATAV   |                   139 |
+| PARC    |                   111 |
+| CLDV    |                   107 |
+| REDEA   |                    78 |
+| TADE    |                    47 |
+| FLWP    |                    46 |
+
 ---
-*Relatório gerado automaticamente em 2026-04-25 16:54:13*
+*Relatório gerado automaticamente em 2026-04-25 18:55:50*

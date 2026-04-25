@@ -40,10 +40,13 @@ def main():
     serv = vencidos['PRODUTO'].value_counts().head(10).to_frame()
     serv.columns = ['Quantidade Vencidos']
 
-    # Montar o Markdown final
-    md_content = f"""# Relatório Diário de Casos e SLA - {datetime.now().strftime("%d/%m/%Y")}
+    posto = vencidos['POSTO'].value_counts().head(10).to_frame()
+    posto.columns = ['Quantidade Vencidos']
 
-Este relatório apresenta um resumo estatístico das atividades e vencimentos de SLA da base operacional.
+    # Montar o Markdown final
+    md_content = f"""# Relatório de Casos e SLA Fonte BA Online - {datetime.now().strftime("%d/%m/%Y")}
+
+Este relatório apresenta um resumo estatístico das atividades e vencimentos de SLA da base operacional de BA's Online.
 
 ## 1. Status de Vencimento de SLA Geral
 {venc.to_markdown()}
@@ -55,6 +58,7 @@ Este relatório apresenta um resumo estatístico das atividades e vencimentos de
 
 ## 3. Estados com Mais Casos Fora do Prazo (Top 10)
 *(N = Fora do Prazo / S = No Prazo)*
+
 {uf_sla.to_markdown()}
 
 ## 4. Clientes com Mais Casos Vencidos (Top 10)
@@ -62,6 +66,9 @@ Este relatório apresenta um resumo estatístico das atividades e vencimentos de
 
 ## 5. Tipos de Serviço com Mais Casos Vencidos (Top 10)
 {serv.to_markdown()}
+
+## 6. Postos com Mais Casos Vencidos (Top 10)
+{posto.to_markdown()}
 
 ---
 *Relatório gerado automaticamente em {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}*
