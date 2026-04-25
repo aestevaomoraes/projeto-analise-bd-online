@@ -6,10 +6,11 @@
 
 In telecom operations, generating daily reports for SLA monitoring and operational performance is often manual, time-consuming, and inconsistent.
 
-This project was developed to solve this problem by:
+This project addresses this challenge by:
 
 👉 Automating operational analysis using Python  
 👉 Leveraging AI (Prompt Engineering) to structure insights  
+👉 Automating report delivery via email  
 👉 Reducing manual workload in reporting processes  
 
 ---
@@ -20,9 +21,10 @@ This project combines:
 
 - 📊 Data processing (Python & Pandas)  
 - 🤖 AI-driven insights (Prompt Engineering - Antigravity)  
-- ⚙️ Automation of daily reporting workflows  
+- ⚙️ Automation of reporting workflows  
+- 📧 Automated email delivery (RPA - Outlook integration)  
 
-👉 Result: a fully automated pipeline for generating business-ready reports.
+👉 Result: a fully automated **end-to-end pipeline** from data processing to report delivery.
 
 ---
 
@@ -45,14 +47,7 @@ The workflow follows a modern data + AI approach:
 🔹 KPI calculation (SLA, backlog, resolution time)  
 🔹 AI-assisted interpretation (prompt engineering)  
 🔹 Automated report generation (Markdown output)  
-
----
-
-## 🧹 Data Processing
-
-- Cleaning and structuring operational data  
-- Standardizing time-based metrics  
-- Preparing data for automated reporting  
+🔹 Automated email delivery to stakeholders  
 
 ---
 
