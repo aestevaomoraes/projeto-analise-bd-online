@@ -26,6 +26,12 @@ This project combines:
 
 👉 Result: a fully automated **end-to-end pipeline** from data processing to report delivery.
 
+## 📸 Example Outputs
+
+<img src="assets/BA_online_relatorio.png" width="500"/>
+<img src="assets/BA_online_email.png" width="500"/>
+<img src="assets/BA_online_automacao.png" width="500"/>
+
 ---
 
 ## 📦 Dataset
