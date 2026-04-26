@@ -101,7 +101,7 @@ def main():
         mail = outlook.CreateItem(0)
 
         # Configurar destinatário para teste
-        mail.To = 'antonio.neto@oi.net.br'
+        mail.To = 'NOME@Provedor.net.br'
         mail.Subject = f'Relatório Diário de SLA Automatizado - {datetime.now().strftime("%d/%m/%Y")}'
         mail.HTMLBody = estilo_html
 
