@@ -28,11 +28,13 @@ This project combines:
 
 ## 📸 Example Outputs
 
- 📊 **Generated Report**
+ 📊 **Generated Report**   
 <img src="assets/BA_online_relatorio.PNG" width="500"/>
- 🔄 **Automation Workflow**
+
+ 🔄 **Automation Workflow**   
 <img src="assets/BA_online_automacao.PNG" width="500"/>
- 📧 **Automated Email Delivery**
+
+ 📧 **Automated Email Delivery**   
 <img src="assets/BA_online_email.PNG" width="500"/>
 
 ---
