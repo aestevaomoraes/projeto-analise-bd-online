@@ -2,6 +2,4 @@ Resumo da sua nova rotina:
 A partir de agora, no seu dia a dia, tudo o que você precisa fazer é:
 
 1. Jogar a planilha nova do dia dentro de Projeto_Analises_BD_Online/data/raw/
-2. Abrir o terminal nessa pasta e rodar python src/data/generate_report.py
-3. Pegar o texto novo na pasta reports/ e mandar para o gerente!
 
